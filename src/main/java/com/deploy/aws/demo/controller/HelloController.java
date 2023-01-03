@@ -15,7 +15,7 @@ public class HelloController {
     @GetMapping
     public ResponseEntity<?> greetings() {
 
-        return new ResponseEntity<Object>("Greetings from Elastic Beanstalk", HttpStatus.OK);
+        return new ResponseEntity<Object>("Congratulations, your app has been deployed", HttpStatus.OK);
     }
 
 }
